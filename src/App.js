@@ -1,8 +1,7 @@
-import React from 'react'
-import './App.css'
+import './App.css';
 import {Container, Row,Col,Card} from "react-bootstrap";
 
-function Homepage() {
+function App() {
   return (
     <>
       <Container fluid="md" id="nav">
@@ -38,8 +37,7 @@ function Homepage() {
   <Card.Body style={{backgroundColor:"#EF5bB1"}}>
     <span><center><a href='#nowhere'>Read More</a></center></span>
   </Card.Body>
-</Card>
-</Col>
+</Card></Col>
     <Col><Card style={{ width: '18rem',marginLeft:"3em" }}>
   <Card.Img variant="top" src="https://kalaagan.com/wp-content/uploads/2021/09/WhatsApp-Image-2021-09-01-at-11.05.41-PM.jpeg" />
   <Card.Body style={{backgroundColor:"#EF5bB1"}}>
@@ -54,8 +52,9 @@ function Homepage() {
 </Card></Col>
   </Row>
 </Container>
+<iframe title={"loc"} src="https://www.google.com/maps/d/u/3/embed?mid=1jhK38sqxuYqY3fKycYfKp0uGA0IOmS4&ehbc=2E312F" width="640" height="480"></iframe>
     </>
-  )
+  );
 }
 
-export default Homepage;
+export default App;

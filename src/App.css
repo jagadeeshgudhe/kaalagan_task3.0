@@ -1,0 +1,48 @@
+body{
+  background-color: white;
+  padding: 0;
+  margin:0;
+}
+html{
+  padding:0;
+  margin:0;
+}
+a{
+  text-decoration: none;
+  color: black;
+  padding-right:1em;
+}
+#nav{
+  background-color: white;
+  height:100px;
+  font-size:1.2em;
+}
+a:hover{
+  text-decoration: none;
+  color:blue;
+
+}
+#logo img{
+  width:200px;
+}
+#honemenav{
+  margin-left:200px;
+}
+#frame2{
+  background-color: white;
+  margin-top:1em;
+  background-color: rgb(222, 182, 182); /* For browsers that do not support gradients */
+  background-image: linear-gradient(rgb(229, 211, 211), rgb(241, 241, 231));
+}
+
+#dancer{
+  height:400px;
+}
+
+#frame3{
+  margin-top:2em;
+}
+
+Card{
+  border-radius:3em;
+}
